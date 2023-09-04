@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        h1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: rgb(255, 255, 255);
+        }
+        h2{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 25px;
+            color: black;
+        }
+        nav{
+            background-color: lightgray;
+            padding: 3px;
+            box-shadow: 2px 2px 7px 1px rgba(0, 0, 0, 0.568);
+            border-radius: 5px;
+                           
+        }
+        nav>a{
+            text-decoration: none;
+            color: black;
+            font-weight:bold;
+            margin right: 30px;
+                    
+        }
+        nav > a:hover{
+            color: red;
+        }
+        header{
+            width: 600px;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }  
+        main{
+            background-color: rgb(0, 0, 0);
+            padding: 15px;
+            margin: 10px;
+            border-radius: 10px 40px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            padding: 2px;
+            margin: 1px;
+            text-align: center;
+            border-radius: 10px;
+                 
+        }
+        footer >p {
+            margin: 0px;
+            
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 10px 20px;
+            
+        }
+        
+        article > aside{
+            background-color: rgb(164, 165, 165);
+            border-radius: 10px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 50px;
+            background-color: black;
+            border-radius: 50%;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="link">link</a>
+            <a href="link">link</a>
+            <a href="link">link</a>
+            <a href="link">link</a>
+            <a href="link">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Notícia sobre programação</h2>
+                <aside>                    
+                    <p>Artigo escrito por guanabara</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad omnis atque iste tempora soluta earum laborum illum odio ratione, nihil odit commodi tempore consequuntur aspernatur at. Possimus adipisci voluptatem omnis.</p>
+                </aside>
+            </article>  
+        </section>
+        
+    </main>
+    <footer>
+        <p>Desenvolvido por Luiz Arthur</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
