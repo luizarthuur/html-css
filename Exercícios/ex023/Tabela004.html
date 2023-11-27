@@ -12,7 +12,7 @@
         }
 
         table{
-            width: 500px;
+            width: 650px;
             border-collapse: collapse;
             position: relative;
         }
@@ -24,6 +24,13 @@
         }
 
         td#classe1{
+            border: 1px solid black ;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        th#classe1{
             border: 1px solid black ;
             padding: 10px;
             text-align: center;
@@ -50,15 +57,15 @@
    
     <table>
         <thead>
-            <tr> <td id="classe1" colspan="5">Filmes Favoritos </td></tr>
+            <tr> <th id="classe1" colspan="5">Filmes Favoritos </th></tr>
             <tr>
-            <td id="classe1">Grupo</td>
-            <td id="classe1">Nomes</td>
-            <td id="classe1" colspan="3">Filmes</td>
+            <th scope="col" id="classe1">Grupo</td>
+            <th scope="col" id="classe1">Nomes</td>
+            <th scope="colgroup" id="classe1" colspan="3">Filmes</td>
             </tr>
         </thead>
         <tr>
-            <td id="classe1" rowspan="3">Mulheres</td>
+            <td scope="rowgroup" id="classe1" rowspan="3">Mulheres</td>
             <td>Ana Maria Santos</td>
             <td>Alien</td>
             <td>Rambo</td>
@@ -77,7 +84,7 @@
             <td>Big Hero</td>
         </tr>
         <tr>
-            <td id="classe1" rowspan="3">Homens</td>
+            <td scope="rowgroup" id="classe1" rowspan="3">Homens</td>
             <td>Bruno Mendonça</td>
             <td>Intocáveis</td>
             <td>Amnésia</td>
@@ -95,6 +102,12 @@
             <td>Taxi Driver</td>
             <td>Toy Story</td>
         </tr>
+        <tfoot>
+            <tr>
+                <th scope="row" id="classe1" colspan="4">Total</th>
+                <td >1000</td>
+            </tr>
+        </tfoot>
     </table>
 </body>
 </html>
