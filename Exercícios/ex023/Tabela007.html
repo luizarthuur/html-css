@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <Style>
+                body{
+            font-family: Arial, Helvetica, sans-serif;
+            height: 500px;             
+        }
+     
+
+        table{
+            width: 600px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        caption{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 10px;
+            border: 1px solid black;
+            background-color: cyan;
+            color: white;
+        }
+
+        td{
+            border: 1px solid black ;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th{
+            border: 1px solid black ;
+            padding: 10px;
+            text-align: left;
+
+        }
+
+        td#classe1{
+            border: 1px solid black ;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        th#classe1{
+            border: 1px solid black ;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        th{
+            background-color: rgb(211, 17, 17);
+            color: white;
+            font-weight: bold;    
+            text-align: center;        
+        }
+
+        thead{
+            background-color: gray;
+            color: white;
+            font-weight: bold;            
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: grey;
+        }
+
+        div#container{
+            overflow-x: auto;
+        }
+
+
+    </Style>
+</head>
+<body>
+    <h1>Tabelas em telas pequenas</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci neque aspernatur nesciunt praesentium eos sint architecto, recusandae nulla repellendus totam consectetur aut odit in perferendis pariatur eaque, quaerat fuga dolore.</p>
+    <div id="container">
+        <table>
+            <caption>Tabelas Responsivas</caption>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Jan</th>
+                    <th>Fev</th>
+                    <th>Mar</th>
+                    <th>Abr</th>
+                    <th>Mai</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                    <th>Ago</th>
+                    <th>Set</th>
+                    <th>Out</th>
+                    <th>Nov</th>
+                    <th>Dez</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+</html>
