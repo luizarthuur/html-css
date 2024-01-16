@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* Estilo para telas */
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    background-color: aqua;
+}
+
+header>h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+}
+
+menu ul{
+    list-style-type: none;
+    background-color: gray;
+
+}
+
+menu li{
+    background-color: bisque;
+    color: black;
+    display: inline-block;
+    padding: 10px;
+}
+
+article{
+    width: 600px;
+    display: block;
+    margin: auto;
+}
